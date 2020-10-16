@@ -1,0 +1,511 @@
+[
+{
+    "model": "main.movie",
+    "pk": 8,
+    "fields": {
+        "name": "Batman Begins",
+        "director": "Christopher Nolan",
+        "cast": "Christian Bale, Michael Caine, Ken Watanabe",
+        "description": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
+        "release_date": "2005-06-15",
+        "averageRating": 0.0,
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT-Uvfu-g0DtNDADFmyFOWDKtvl9rpAWVeFH0g_E9jXzMCRRez7"
+    }
+},
+{
+    "model": "main.movie",
+    "pk": 9,
+    "fields": {
+        "name": "The Dark Knight",
+        "director": "Christopher Nolan",
+        "cast": "Christian Bale, Heath Ledger, Aaron Eckhart",
+        "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+        "release_date": "2008-08-18",
+        "averageRating": 0.0,
+        "image": "https://contentserver.com.au/assets/598411_p173378_p_v8_au.jpg"
+    }
+},
+{
+    "model": "main.movie",
+    "pk": 10,
+    "fields": {
+        "name": "The Dark Knight Rises",
+        "director": "Christopher Nolan",
+        "cast": "Christian Bale, Tom Hardy, Anne Hathaway",
+        "description": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane.",
+        "release_date": "2012-08-20",
+        "averageRating": 0.0,
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQSGF8_VbDqKF0B_4IQ0NF87VMDSy7_MPKryawR-qLnSIPQwo5z"
+    }
+},
+{
+    "model": "main.movie",
+    "pk": 11,
+    "fields": {
+        "name": "The Shawshank Redemption",
+        "director": "Frank Darabont",
+        "cast": "Tim Robbins, Morgan Freeman, Bob Gunton",
+        "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "release_date": "1994-10-12",
+        "averageRating": 0.0,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkmMH-bEDUS2TmK8amBqgIMgrfzN1_mImChPuMrunA1XjNTSKm"
+    }
+},
+{
+    "model": "main.movie",
+    "pk": 12,
+    "fields": {
+        "name": "Forrest Gump",
+        "director": "Robert Zemeckis",
+        "cast": "Tom Hanks, Robin Wright, Gary Sinise",
+        "description": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate and other historical events unfold through the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+        "release_date": "1994-07-06",
+        "averageRating": 0.0,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSppDgk99BKVA4TJtWc1FN4-HUkdWrFNfMm1-M0nQ01sIOcbTZu"
+    }
+},
+{
+    "model": "main.movie",
+    "pk": 13,
+    "fields": {
+        "name": "Inception",
+        "director": "Christopher Nolan",
+        "cast": "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page",
+        "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+        "release_date": "2010-07-10",
+        "averageRating": 0.0,
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRo9vfJCM6dzPkZHIHBVCtlJnAnew9Ai26kEdrli0-tfmatmciD"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$100000$OKbr2PLGZcxI$J7o/8tRbkwlHIe/5TeswTDQaD6t9IHqnXl4qU4m+6r0=",
+        "last_login": "2020-03-27T01:04:55Z",
+        "is_superuser": false,
+        "username": "nateque",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-03-19T02:16:04Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$150000$UlJJclsLs960$DrZxX4t8cR6XRYbcnSvXbvT2xu8ObaSoDp1HsuaYhlw=",
+        "last_login": "2020-10-13T09:36:53.788Z",
+        "is_superuser": false,
+        "username": "siddiqui",
+        "first_name": "Nateque",
+        "last_name": "Siddiqui",
+        "email": "nateque999@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2020-10-13T06:25:30Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$100000$1jLDdapnY4bi$mYUOqg7jm860rQ12xhk+tkHIqXkkcBhzUk9zAiN7Cvw=",
+        "last_login": "2020-10-15T06:53:50.455Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-10-13T09:11:25Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "3j2jm94bya2jskw7o753l4kdfftoqzgt",
+    "fields": {
+        "session_data": "MGNiNjJlYWUwMTgwYWJmNzNhYmUxMWY4ZjdiMWI1MTcxODI1NGE1Zjp7Il9hdXRoX3VzZXJfaWQiOiI2IiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxODA1N2I5OWZjZTk1NTJlOWE3YjdkZjNiN2ZmOTE0M2M2MjVkNzMwIn0=",
+        "expire_date": "2020-10-29T06:53:50.579Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "5x206o3yajtdnwb0j4qx2ww89iztv1jt",
+    "fields": {
+        "session_data": "OTE0NGRmMmVjYWVjYzNmYTRjMmZmN2M4M2M0YzEyNTE1MmMzN2U2OTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJhODliOWQwNGEwZDQyMTc0ZGI1ZmI1NmM2MTQwNGMyYWQ0M2I4YTNmIn0=",
+        "expire_date": "2020-04-10T01:04:55.975Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "bvnjlbid0z9mt7xr1c2bw77j0qzf7fql",
+    "fields": {
+        "session_data": "MDA2YzgxNjUxODA1ZGM2MTAxMmEwOTNmYjY5MmU0ODBmNTc1MDMzZTp7Il9hdXRoX3VzZXJfaWQiOiI2IiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzOWJkZjgxOTBlMzA2ZGI1ZTE0ZmRiOGZkMmFmZTBiMGRmZTBmZmU0In0=",
+        "expire_date": "2020-10-27T09:38:34.580Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "mvnst530xbmp5p4wvodhbn67346h8pke",
+    "fields": {
+        "session_data": "OTE0NGRmMmVjYWVjYzNmYTRjMmZmN2M4M2M0YzEyNTE1MmMzN2U2OTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJhODliOWQwNGEwZDQyMTc0ZGI1ZmI1NmM2MTQwNGMyYWQ0M2I4YTNmIn0=",
+        "expire_date": "2020-04-07T00:49:30.698Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2020-03-19T02:18:19.905Z",
+        "user": [
+            "nateque"
+        ],
+        "content_type": [
+            "main",
+            "movie"
+        ],
+        "object_id": "1",
+        "object_repr": "The Dark Knight",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2020-03-19T02:32:14.347Z",
+        "user": [
+            "nateque"
+        ],
+        "content_type": [
+            "main",
+            "movie"
+        ],
+        "object_id": "2",
+        "object_repr": "Jojo Rabbit",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2020-03-20T01:27:31.489Z",
+        "user": [
+            "nateque"
+        ],
+        "content_type": [
+            "main",
+            "movie"
+        ],
+        "object_id": "3",
+        "object_repr": "1917",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2020-03-20T01:46:55.664Z",
+        "user": [
+            "nateque"
+        ],
+        "content_type": [
+            "main",
+            "movie"
+        ],
+        "object_id": "1",
+        "object_repr": "The Dark Knight",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2020-03-20T01:47:13.407Z",
+        "user": [
+            "nateque"
+        ],
+        "content_type": [
+            "main",
+            "movie"
+        ],
+        "object_id": "2",
+        "object_repr": "Jojo Rabbit",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2020-03-20T01:47:31.051Z",
+        "user": [
+            "nateque"
+        ],
+        "content_type": [
+            "main",
+            "movie"
+        ],
+        "object_id": "3",
+        "object_repr": "1917",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2020-03-20T01:49:35.599Z",
+        "user": [
+            "nateque"
+        ],
+        "content_type": [
+            "main",
+            "movie"
+        ],
+        "object_id": "4",
+        "object_repr": "The Shawshank Redemption",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2020-03-22T04:17:27.644Z",
+        "user": [
+            "nateque"
+        ],
+        "content_type": [
+            "main",
+            "movie"
+        ],
+        "object_id": "6",
+        "object_repr": "Anushil ko bihe",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2020-03-24T00:49:55.743Z",
+        "user": [
+            "nateque"
+        ],
+        "content_type": [
+            "main",
+            "review"
+        ],
+        "object_id": "1",
+        "object_repr": "admin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2020-10-13T09:32:38.104Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "4",
+        "object_repr": "new",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2020-10-13T09:32:38.237Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "3",
+        "object_repr": "test",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2020-10-13T09:32:38.349Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "youtube",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2020-10-13T09:33:26.644Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "5",
+        "object_repr": "siddiqui",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"username\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2020-10-13T09:33:36.077Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "nateque",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"username\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2020-10-13T09:33:43.895Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "nateque",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"is_superuser\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2020-10-13T09:33:56.111Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "6",
+        "object_repr": "admin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"username\"]}}]"
+    }
+},
+{
+    "model": "main.review",
+    "pk": 13,
+    "fields": {
+        "movie": 8,
+        "user": [
+            "admin"
+        ],
+        "comment": "Best batman movie ever...",
+        "rating": 10.0
+    }
+},
+{
+    "model": "main.review",
+    "pk": 14,
+    "fields": {
+        "movie": 9,
+        "user": [
+            "admin"
+        ],
+        "comment": "Just love the movie, specially the joker.",
+        "rating": 10.0
+    }
+},
+{
+    "model": "main.review",
+    "pk": 15,
+    "fields": {
+        "movie": 10,
+        "user": [
+            "admin"
+        ],
+        "comment": "superb movie, specially that cave scene.",
+        "rating": 10.0
+    }
+},
+{
+    "model": "main.review",
+    "pk": 16,
+    "fields": {
+        "movie": 11,
+        "user": [
+            "admin"
+        ],
+        "comment": "Amazing movie...",
+        "rating": 10.0
+    }
+},
+{
+    "model": "main.review",
+    "pk": 17,
+    "fields": {
+        "movie": 8,
+        "user": [
+            "siddiqui"
+        ],
+        "comment": "seriously amazing...",
+        "rating": 9.5
+    }
+}
+]
